@@ -1,55 +1,30 @@
 {
+  "$schema": "https://zed.dev/schema/themes/v0.2.0.json",
   "name": "Molokai",
   "author": "Enes Genç <enecgenc@gmail.com>",
-  "themes": {
-    "dark": {
-      "ui": {
-        "background": "#1B1D1E",
-        "text": "#F8F8F2",
-        "border": "#232526"
-      },
-      "editor": {
-        "background": "#1B1D1E",
-        "foreground": "#F8F8F2",
-        "cursor": "#F8F8F0",
-        "selection": "#403D3D",
-        "line_number": {
-          "foreground": "#465457",
-          "background": "#232526"
-        },
-        "current_line": {
-          "background": "#293739"
-        },
-        "brackets": {
-          "foreground": "#F92672"
-        },
-        "search": {
-          "background": "#FFE792",
-          "foreground": "#000000"
-        },
-        "syntax": {
-          "comment": "#7E8E91",
-          "constant": "#AE81FF",
-          "string": "#E6DB74",
-          "number": "#AE81FF",
-          "boolean": "#AE81FF",
-          "function": "#A6E22E",
-          "keyword": "#F92672",
-          "operator": "#F92672",
-          "type": "#66D9EF",
-          "identifier": "#FD971F",
-          "tag": "#F92672",
-          "special": "#66D9EF",
-          "delimiter": "#8F8F8F"
-        },
-        "status_bar": {
-          "background": "#1B1D1E",
-          "foreground": "#455354"
-        },
-        "gutter": {
-          "background": "#232526"
-        }
+  "themes": [
+    {
+      "name": "Molokai Dark",
+      "appearance": "dark",
+      "style": {
+        "editor.background": "#171717",
+        "editor.gutter.background": "#171717",
+        "tab_bar.background": "#171717",
+        "tab.active_background": "#8f8f8f",
+        "tab.inactive_background": "#171717",
+        "background.appearance": "blurred",
+        "panel.background": "#171717",
+        "title_bar.background": "#171717",
+        "toolbar.background": "#171717",
+        "status_bar.background": "#171717",
+        "players": [
+          {
+            "cursor": "#8f8f8f",
+            "selection": "#575b6180",
+            "background": "#ffff"
+          }
+        ]
       }
     }
-  }
+  ]
 }
