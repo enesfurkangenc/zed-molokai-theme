@@ -1,0 +1,7 @@
+id = "molokai"
+name = "Molokai Theme"
+version = "0.0.1"
+schema_version = 1
+authors = ["Enes Genç <enecgenc@gmail.com>"]
+description = "Molokai Theme for zed editor"
+repository = "https://github.com/enesfurkangenc/zed-molokai-theme"
